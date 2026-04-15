@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }) => {
   // Register Function
   const register = async (name, email, password) => {
     try {
-      const response = await fetch(`${import.meta.VITE_BACKEND_URL}/api/auth/register`, {
+      const response = await fetch(`${import.meta.VITE_BACKEND_URL}/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),
