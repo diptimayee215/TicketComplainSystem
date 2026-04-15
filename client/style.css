@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+
+header {
+  background: #0a3d62;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.form {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  margin: 50px auto;
+  border-radius: 6px;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background: #0a3d62;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
